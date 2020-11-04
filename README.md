@@ -3,10 +3,10 @@ SearchBoost.AI
 First publish: Nov 4 2020
 
 ## Stack
-This is built with modular components with [Twitter Bootstrap] v4.5.3 and limited [jQuery] to provide us with a [responsive design].
+This is built with modular components with [Twitter Bootstrap] v4.5.3 and limited [jQuery] to provide us with a [responsive design]. Given the weight of this, there is no need for SCSS or CSS transpilers.
 
 ## Folders
-There will be folders for JS and compiled CSS. Naming of supplimental files will be semantic to theme or function and will be described here.
+There will be subfolders for JS and compiled CSS inside of the assets folder. Naming of supplimental files will be semantic to theme or function and will be described here.
 
 ### Credit
 [tim hunold] - originator
