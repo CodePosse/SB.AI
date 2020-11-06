@@ -1,1 +1,3 @@
 /*theme*/
+.jumbotrons {height:calc(100vh - 56px)}
+.clients .card {border:none; height:80px}
