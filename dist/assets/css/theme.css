@@ -115,13 +115,13 @@ h5 {
   background-color: var(--custom3);
 }
 .border-custom1 {
-  border-color: var(--custom1);
+  border: 1px solid var(--custom1);
 }
 .border-custom2 {
-  border-color: var(--custom2);
+  border: 1px solid var(--custom2);
 }
 .border-custom3 {
-  border-color: var(--custom3);
+  border: 1px solid var(--custom3);
 }
 
 
@@ -143,3 +143,114 @@ main.pricing table {
 .pricing th {
     font-size: 20px
 }
+
+
+/* crazy links */
+
+.link-style-1 a {
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .link-style-1 a:after, .link-style-1 a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -0.125em;
+    right: -0.125em;
+    z-index: -1;
+  }
+  .link-style-1 a:before {
+    background-color: rgba(0, 0, 0, 0.9);
+    bottom: -0.0625em;
+    height: 1px;
+  }
+  .link-style-1 a:after {
+    background-color: var(--custom1);
+    -webkit-animation: linkUnderlineOut 0.3s forwards;
+            animation: linkUnderlineOut 0.3s forwards;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    -webkit-transform-origin: bottom left;
+            transform-origin: bottom left;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  .link-style-1 a:hover {
+    color: white;
+  }
+  .link-style-1 a:hover:before {
+    background-color: var(--custom1);
+  }
+  .link-style-1 a:hover:after {
+    -webkit-animation: linkUnderlineIn 0.3s forwards;
+            animation: linkUnderlineIn 0.3s forwards;
+  }
+  @-webkit-keyframes linkUnderlineIn {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+    50% {
+      -webkit-transform: scaleY(1.1);
+              transform: scaleY(1.1);
+    }
+    63% {
+      -webkit-transform: scaleY(0.9);
+              transform: scaleY(0.9);
+    }
+    88% {
+      -webkit-transform: scaleY(1.05);
+              transform: scaleY(1.05);
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+  }
+  @keyframes linkUnderlineIn {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+    50% {
+      -webkit-transform: scaleY(1.1);
+              transform: scaleY(1.1);
+    }
+    63% {
+      -webkit-transform: scaleY(0.9);
+              transform: scaleY(0.9);
+    }
+    88% {
+      -webkit-transform: scaleY(1.05);
+              transform: scaleY(1.05);
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+  }
+  @-webkit-keyframes linkUnderlineOut {
+    0% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    100% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
+  @keyframes linkUnderlineOut {
+    0% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+    100% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+    }
+  }
