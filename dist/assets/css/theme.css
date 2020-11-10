@@ -1,2 +1,4 @@
 /*theme*/
 .jumbotrons {height:calc(100vh - 56px)}
+.required {color:red;font-size: 24px;}
+label{text-transform: uppercase;}
