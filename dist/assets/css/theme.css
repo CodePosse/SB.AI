@@ -7,17 +7,20 @@
 }
 
 /* global */
-*,
 html,
 body {
   font-family: "Raleway", Tahoma, Arial, sans-serif;
-}
+height:100%}
 footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 2rem;
-  color: #fff;
-  background-color: var(--custom3);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        /* margin-top: 2rem; */
+        color: #fff;
+        background-color: var(--custom3);
+        bottom: 0px;
+        position: relative;
+        width: 100%;
+
 }
 footer a {
   color: inherit;
