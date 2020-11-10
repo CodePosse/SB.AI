@@ -74,7 +74,9 @@ form .required {
 }
 form label {
   text-transform: uppercase;
+  color: var(--custom3);
 }
+form .form-control, form select, form option {color:var(--custom2);border-color:var(--custom1)}
 .logo {
   background: url("/assets/img/SearchBoos.ai-White-NoTag.png");
 }
