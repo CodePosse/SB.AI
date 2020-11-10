@@ -1,9 +1,9 @@
 /*theme*/
 :root {
-    --custom1: #3E7DED;
-    --custom2: #6757D9;
-    --custom3: #7C42CF;
-  }
+  --custom1: #3e7ded;
+  --custom2: #6757d9;
+  --custom3: #7c42cf;
+}
 form .required {
   color: red;
   font-size: 24px;
@@ -14,22 +14,52 @@ form label {
 .logo {
   background: url("/assets/img/SearchBoos.ai-White-NoTag.png");
 }
-.attention, h3 {
+.attention,
+h3 {
   color: var(--custom1);
 }
-h1{color:var(--custom1)}
-h2{color:var(--custom2)}
-h4,h5{color:var(--custom3)}
+h1 {
+  color: var(--custom1);
+}
+h2 {
+  color: var(--custom2);
+}
+h4,
+h5 {
+  color: var(--custom3);
+}
 
-.custom1{color: var(--custom1)}
-.custom2{color: var(--custom2)}
-.custom3{color: var(--custom3)}
-.bg-custom1{background-color: var(--custom1)}
-.bg-custom2{background-color: var(--custom2)}
-.bg-custom3{background-color: var(--custom3)}
-.border-custom1{border-color: var(--custom1)}
-.border-custom2{border-color: var(--custom2)}
-.border-custom3{border-color: var(--custom3)}
 
-footer {background-color: var(--custom3); color:#fff}
-footer a {color: #fff}
+/* custom color utils */
+.custom1 {
+  color: var(--custom1);
+}
+.custom2 {
+  color: var(--custom2);
+}
+.custom3 {
+  color: var(--custom3);
+}
+.bg-custom1 {
+  background-color: var(--custom1);
+}
+.bg-custom2 {
+  background-color: var(--custom2);
+}
+.bg-custom3 {
+  background-color: var(--custom3);
+}
+.border-custom1 {
+  border-color: var(--custom1);
+}
+.border-custom2 {
+  border-color: var(--custom2);
+}
+.border-custom3 {
+  border-color: var(--custom3);
+}
+
+footer {
+  background-color: var(--custom3);
+  color: #fff;
+}
