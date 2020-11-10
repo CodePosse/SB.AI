@@ -134,10 +134,10 @@ h5 {
 }
 
 /* pricing */
-table.pricing {
+main.pricing {height: calc(100% - 160px)}
+main.pricing table {
     font-size: 18px
 }
-
 .pricing th {
     font-size: 20px
 }
