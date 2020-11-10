@@ -1,9 +1,70 @@
 /*theme*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap");
 :root {
   --custom1: #3e7ded;
   --custom2: #6757d9;
   --custom3: #7c42cf;
 }
+
+/* global */
+*,
+html,
+body {
+  font-family: "Raleway", Tahoma, Arial, sans-serif;
+}
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  color: #fff;
+  background-color: var(--custom3);
+}
+footer a {
+  color: inherit;
+}
+footer a:hover {
+  color: #e4e4e4;
+}
+/* width related */
+.w-10 {
+  width: 10% !important;
+}
+.w-20 {
+  width: 20% !important;
+}
+.w-30 {
+  width: 30% !important;
+}
+.w-40 {
+  width: 40% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.w-60 {
+  width: 60% !important;
+}
+.w-70 {
+  width: 70% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+img.invert {
+    filter: invert(40%);
+    width: 200px;
+    height: auto;
+}
+
+
+/* forms */
 form .required {
   color: red;
   font-size: 24px;
@@ -28,7 +89,6 @@ h4,
 h5 {
   color: var(--custom3);
 }
-
 
 /* custom color utils */
 .custom1 {
@@ -59,7 +119,22 @@ h5 {
   border-color: var(--custom3);
 }
 
-footer {
-  background-color: var(--custom3);
-  color: #fff;
+
+/* page specific */
+
+/* home */
+.jumbotron.home {
+    height: calc(100vh - 56px);
+    background: url('../../assets/img/search-unsplash.jpg') bottom center teal;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+/* pricing */
+table.pricing {
+    font-size: 18px
+}
+
+.pricing th {
+    font-size: 20px
 }
