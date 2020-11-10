@@ -28,6 +28,8 @@ footer a {
 footer a:hover {
   color: #e4e4e4;
 }
+.shadow-sm{box-shadow: var(--custom3);}
+
 /* width related */
 .w-10 {
   width: 10% !important;
@@ -77,8 +79,9 @@ form label {
   color: var(--custom3);
 }
 form .form-control, form select, form option {color:var(--custom2);border-color:var(--custom1)}
+input:active, input:focus{color:var(--custom2)}
 .logo {
-  background: url("/assets/img/SearchBoos.ai-White-NoTag.png");
+  background: url("/assets/img/SearchBoos.ai-Black-NoTag2.png");
 }
 .attention,
 h3 {
@@ -89,6 +92,7 @@ h1 {
 }
 h2 {
   color: var(--custom2);
+
 }
 h4,
 h5 {
@@ -123,7 +127,14 @@ h5 {
 .border-custom3 {
   border: 1px solid var(--custom3);
 }
-
+.btn-custom1,.btn-outline-custom1:hover{color:#fff;background-color: var(--custom1);}
+.btn-outline-custom1,.btn-custom1:hover{color: var(--custom1); border: 1px solid var(--custom1);}
+.btn-custom2,.btn-outline-custom2:hover{color:#fff;background-color: var(--custom2);}
+.btn-outline-custom2,.btn-custom2:hover{color: var(--custom1); border: 1px solid var(--custom2);}
+.btn-custom3,.btn-outline-custom3:hover{color:#fff;background-color: var(--custom3);}
+.btn-outline-custom3,.btn-custom3:hover{color: var(--custom3); border: 1px solid var(--custom3);}
+*[class*="btn-outline-custom"]:hover {color:#fff;}
+*[class*="btn-custom"]:hover {background-color:#fff;}
 
 /* page specific */
 
@@ -145,8 +156,7 @@ main.pricing table {
 }
 
 
-/* crazy links */
-
+/* crazy link effect */
 .link-style-1 a {
     color: rgba(0, 0, 0, 0.9);
     text-decoration: none;
@@ -254,3 +264,11 @@ main.pricing table {
               transform: scaleY(0);
     }
   }
+
+  /* random color toys */
+  .coolBorder{  border: 0px;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, var(--custom1), var(--custom2), var(--custom3));
+    border-image-slice: 1;
+    margin: auto;
+    text-decoration: none;}
