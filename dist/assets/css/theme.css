@@ -1,5 +1,35 @@
 /*theme*/
-.jumbotrons {height:calc(100vh - 56px)}
-.required {color:red;font-size: 24px;}
-label{text-transform: uppercase;}
-.logo{background: url('/assets/img/SearchBoos.ai-White-NoTag.png');}
+:root {
+    --custom1: #3E7DED;
+    --custom2: #6757D9;
+    --custom3: #7C42CF;
+  }
+form .required {
+  color: red;
+  font-size: 24px;
+}
+form label {
+  text-transform: uppercase;
+}
+.logo {
+  background: url("/assets/img/SearchBoos.ai-White-NoTag.png");
+}
+.attention, h3 {
+  color: var(--custom1);
+}
+h1{color:var(--custom1)}
+h2{color:var(--custom2)}
+h4,h5{color:var(--custom3)}
+
+.custom1{color: var(--custom1)}
+.custom2{color: var(--custom2)}
+.custom3{color: var(--custom3)}
+.bg-custom1{background-color: var(--custom1)}
+.bg-custom2{background-color: var(--custom2)}
+.bg-custom3{background-color: var(--custom3)}
+.border-custom1{border-color: var(--custom1)}
+.border-custom2{border-color: var(--custom2)}
+.border-custom3{border-color: var(--custom3)}
+
+footer {background-color: var(--custom3); color:#fff}
+footer a {color: #fff}
