@@ -141,7 +141,7 @@ h5 {
 /* home */
 .jumbotron.home {
     height: calc(100vh - 56px);
-    background: url('../../assets/img/search-unsplash.jpg') bottom center teal;
+    background: url('../../assets/img/stock/image002.png') bottom center teal;
     background-repeat: no-repeat, repeat;
     background-size: cover;
 }
@@ -272,3 +272,49 @@ main.pricing table {
     border-image-slice: 1;
     margin: auto;
     text-decoration: none;}
+
+    /* home inset card titles */
+
+    .heading-frame {
+      display: grid;
+      grid-template-columns: -webkit-max-content auto;
+      grid-template-columns: max-content auto;
+      grid-template-rows: auto -webkit-max-content;
+      grid-template-rows: auto max-content;
+      background: #333 url('../img/stock/image003.png') center;
+      background-size: cover;
+      color: black;
+      height:225px;
+      padding: 1rem;
+    }
+    .heading-frame:before, .heading-frame:after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 4px solid var(--custom1);
+    }
+    .heading-frame:before {
+      grid-row: 1 / 2;
+      border-right: none;
+      border-bottom: none;
+    }
+    .heading-frame:after {
+      grid-row: 1 / span 2;
+      border-left: none;
+    }
+    .heading-frame h2 {
+      margin: 1rem 1rem -.5rem 0;
+      font-size: 2rem;
+      max-width: 100%;
+      color: var(--custom1);
+      text-shadow: 1px 1px 1px black;
+      font-weight: bold;
+    }
+    
+    .card.bg-custom2 .heading-frame h2 {color: var(--custom2);}
+    .card.bg-custom2 .heading-frame:before, .card.bg-custom2 .heading-frame:after {border-color: var(--custom2);}
+    .card.bg-custom2 .heading-frame{background-image: url('../img/stock/image006.png');}
+    .card.bg-custom3 .heading-frame h2 {color: var(--custom3);}
+    .card.bg-custom3 .heading-frame:before, .card.bg-custom3 .heading-frame:after {border-color: var(--custom3);}
+    .card.bg-custom3 .heading-frame {background-image: url('../img/stock/image005.png');}
