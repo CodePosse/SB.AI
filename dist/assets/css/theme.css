@@ -146,14 +146,7 @@ h5 {
     background-size: cover;
 }
 
-/* pricing */
-main.pricing {height: calc(100% - 160px)}
-main.pricing table {
-    font-size: 18px
-}
-.pricing th {
-    font-size: 20px
-}
+
 
 
 /* crazy link effect */
@@ -316,3 +309,93 @@ main.pricing table {
     .card.bg-custom2 .heading-frame{background-image: url('../img/stock/image006.png');}
     .card.bg-custom3 .heading-frame:before, .card.bg-custom3 .heading-frame:after {border-color: var(--custom3);}
     .card.bg-custom3 .heading-frame {background-image: url('../img/stock/image005.png');}
+
+
+
+
+
+/* pricing */
+main.pricing table {
+    font-size: 18px
+}
+.pricing th {
+    font-size: 20px
+}
+
+    .lis-light {
+      color: #707070
+  }
+  .lis-bg-light {
+    background-color: #00000005
+}
+.price-table {
+  -webkit-transition: 0.3s ease
+}
+
+.lis-brd-light {
+  border-color: #dadada !important
+}
+
+.lis-rounded-top {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px
+}
+
+.lis-bg-light {
+  background-color: #f7f7f7
+}
+.lis-latter-spacing-2 {
+  letter-spacing: 2px
+}
+
+.lis-font-weight-500 {
+  font-weight: 500
+}
+.price-table sup {
+  top: -1.5em
+}
+
+.price-table sup,
+.price-table small {
+  font-size: 1.25rem
+}
+
+.price-table small {
+  font-size: 1.25rem
+}
+
+.lis-brd-light {
+  border-color: #dadada !important
+}
+
+.lis-line-height-3 {
+  line-height: 3 !important
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none
+}
+
+.lis-line-height-3 {
+  line-height: 3 !important
+}
+.lis-rounded-circle-50 {
+  border-radius: 50px
+}
+.lis-bg-primary {
+  background-color: #ff214f
+}
+.price-table.active {
+  transform: scale(1.045);
+  -webkit-transform: scale(1.045)
+}
+
+.price-table {
+  -webkit-transition: 0.3s ease
+}
+
+.lis-rounded-bottom {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px
+}
