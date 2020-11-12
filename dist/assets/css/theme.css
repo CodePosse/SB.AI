@@ -85,18 +85,18 @@ input:active, input:focus{color:var(--custom2)}
 }
 .attention,
 h3 {
-  color: var(--custom1);
+  color: var(--custom2);
 }
 h1 {
-  color: var(--custom1);
+  color: var(--custom3);
 }
 h2 {
-  color: var(--custom2);
+  color: var(--custom1);
 
 }
 h4,
 h5 {
-  color: var(--custom3);
+  color: var(--custom2);
 }
 
 /* custom color utils */
@@ -141,7 +141,7 @@ h5 {
 /* home */
 .jumbotron.home {
     height: calc(100vh - 56px);
-    background: url('../../assets/img/stock/image002.png') bottom center teal;
+    background: url('../../assets/img/stock/image008.png') center white;
     background-repeat: no-repeat, repeat;
     background-size: cover;
 }
@@ -307,14 +307,12 @@ main.pricing table {
       margin: 1rem 1rem -.5rem 0;
       font-size: 2rem;
       max-width: 100%;
-      color: var(--custom1);
+      color: #fff;
       text-shadow: 1px 1px 1px black;
       font-weight: bold;
     }
     
-    .card.bg-custom2 .heading-frame h2 {color: var(--custom2);}
     .card.bg-custom2 .heading-frame:before, .card.bg-custom2 .heading-frame:after {border-color: var(--custom2);}
     .card.bg-custom2 .heading-frame{background-image: url('../img/stock/image006.png');}
-    .card.bg-custom3 .heading-frame h2 {color: var(--custom3);}
     .card.bg-custom3 .heading-frame:before, .card.bg-custom3 .heading-frame:after {border-color: var(--custom3);}
     .card.bg-custom3 .heading-frame {background-image: url('../img/stock/image005.png');}
