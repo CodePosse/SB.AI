@@ -315,12 +315,8 @@ h5 {
 
 
 /* pricing */
-main.pricing table {
-    font-size: 18px
-}
-.pricing th {
-    font-size: 20px
-}
+
+.price-table h1, .price-table h5{color:#fff}
 
     .lis-light {
       color: #707070
@@ -329,54 +325,44 @@ main.pricing table {
     background-color: #00000005
 }
 .price-table {
-  -webkit-transition: 0.3s ease
+  transition: 0.3s ease
 }
-
 .lis-brd-light {
   border-color: #dadada !important
 }
-
 .lis-rounded-top {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px
 }
-
 .lis-bg-light {
   background-color: #f7f7f7
 }
 .lis-latter-spacing-2 {
   letter-spacing: 2px
 }
-
 .lis-font-weight-500 {
   font-weight: 500
 }
 .price-table sup {
   top: -1.5em
 }
-
 .price-table sup,
 .price-table small {
   font-size: 1.25rem
 }
-
 .price-table small {
   font-size: 1.25rem
 }
-
 .lis-brd-light {
   border-color: #dadada !important
 }
-
 .lis-line-height-3 {
   line-height: 3 !important
 }
-
 .list-unstyled {
   padding-left: 0;
   list-style: none
 }
-
 .lis-line-height-3 {
   line-height: 3 !important
 }
@@ -386,15 +372,10 @@ main.pricing table {
 .lis-bg-primary {
   background-color: #ff214f
 }
-.price-table.active {
+.price-table:hover {
   transform: scale(1.045);
   -webkit-transform: scale(1.045)
 }
-
-.price-table {
-  -webkit-transition: 0.3s ease
-}
-
 .lis-rounded-bottom {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px
