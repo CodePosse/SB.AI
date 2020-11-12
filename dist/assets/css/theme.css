@@ -5,8 +5,8 @@
   --custom2: #6757d9;
   --custom3: #7c42cf;
   --gold: #6fa63d;
-  --bronze:#c97334;
-  --silver:#b8b8b8;
+  --bronze: #c97334;
+  --silver: #b8b8b8;
 }
 
 /* global */
@@ -120,9 +120,15 @@ h5 {
 .custom3 {
   color: var(--custom3);
 }
-.bronze{color:var(--bronze)}
-.silver{color:var(--silver)}
-.gold{color:var(--gold)}
+.bronze {
+  color: var(--bronze);
+}
+.silver {
+  color: var(--silver);
+}
+.gold {
+  color: var(--gold);
+}
 .bg-custom1 {
   background-color: var(--custom1);
 }
@@ -132,9 +138,15 @@ h5 {
 .bg-custom3 {
   background-color: var(--custom3);
 }
-.bg-gold{background-color: var(--gold)}
-.bg-silver{background-color: var(--silver)}
-.bg-bronze{background-color: var(--bronze)}
+.bg-gold {
+  background-color: var(--gold);
+}
+.bg-silver {
+  background-color: var(--silver);
+}
+.bg-bronze {
+  background-color: var(--bronze);
+}
 .border-custom1 {
   border: 1px solid var(--custom1);
 }
@@ -144,9 +156,15 @@ h5 {
 .border-custom3 {
   border: 1px solid var(--custom3);
 }
-.border-bronze{border:1px solid var(--bronze)}
-.border-silver{border:1px solid var(--silver)}
-.border-gold{border:1px solid var(--gold)}
+.border-bronze {
+  border: 1px solid var(--bronze);
+}
+.border-silver {
+  border: 1px solid var(--silver);
+}
+.border-gold {
+  border: 1px solid var(--gold);
+}
 .btn-custom1,
 .btn-outline-custom1:hover {
   color: #fff;
