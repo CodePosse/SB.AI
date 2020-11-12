@@ -346,13 +346,10 @@ h5 {
 .price-table sup {
   top: -1.5em
 }
-.price-table sup,
-.price-table small {
+.price-table sup {
   font-size: 1.25rem
 }
-.price-table small {
-  font-size: 1.25rem
-}
+
 .lis-brd-light {
   border-color: #dadada !important
 }
@@ -380,3 +377,4 @@ h5 {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px
 }
+.display-4.lis-font-weight-500 small{font-size: .80rem;}
