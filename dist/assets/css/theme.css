@@ -74,6 +74,12 @@ img.invert {
 }
 
 /* forms */
+.btn-xl {
+  padding: .5rem 1rem;
+  font-size: 1.55rem;
+  line-height: 1.75;
+  border-radius: .3rem;
+}
 form .required {
   color: red;
   font-size: 24px;
@@ -210,6 +216,7 @@ h5 {
   background: url("../../assets/img/stock/image008.png") center white;
   background-repeat: no-repeat, repeat;
   background-size: cover;
+  font-size: 1.25rem;
 }
 
 /* crazy link effect */
