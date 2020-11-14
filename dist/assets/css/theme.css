@@ -15,6 +15,7 @@ body {
   font-family: "Raleway", Tahoma, Arial, sans-serif;
   height: 100%;
 }
+main {margin-bottom:5rem}
 footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -92,7 +93,6 @@ form .form-control,
 form select,
 form option {
   color: var(--custom2);
-  border-color: var(--custom1);
 }
 input:active,
 input:focus {
