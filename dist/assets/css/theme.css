@@ -169,7 +169,12 @@ h5 {
 .bg-bronze {
   background-color: var(--bronze);
 }
-.bg-deepPurple{	background: #1f253d;}
+.bg-deepPurple {
+  background: #1f253d;
+}
+.bg-lightPurple {
+  background: #50597b;
+}
 .border-custom1 {
   border: 1px solid var(--custom1);
 }
