@@ -7,6 +7,8 @@
   --gold: #6fa63d;
   --bronze: #c97334;
   --silver: #b8b8b8;
+  --deepPurple:#1f253d;
+  --lightPurple:#50597b;
 }
 
 /* global */
@@ -170,10 +172,10 @@ h5 {
   background-color: var(--bronze);
 }
 .bg-deepPurple {
-  background: #1f253d;
+  background: var(--deepPurple);
 }
 .bg-lightPurple {
-  background: #50597b;
+  background: var(--lightPurple);
 }
 .border-custom1 {
   border: 1px solid var(--custom1);
