@@ -99,6 +99,13 @@ img.invert {
   line-height: 1.75;
   border-radius: 0.3rem;
 }
+.jumbotron .btn-xl {    
+  /* padding: .5rem .5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  margin: 10px; */
+}
 form .required {
   color: red;
   font-size: 24px;
@@ -237,12 +244,20 @@ h5 {
 /* home */
 .jumbotron.home {
   height: calc(100vh - 56px);
-  background: url("../../assets/img/stock/image008.png") center white;
+  background: url("../img/search-unsplash.jpg") no-repeat left top #000;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   font-size: 1.25rem;
 }
-
+@media (max-width: 767.98px) {
+  .jumbotron .btn-xl {    
+    padding: .75rem 0.75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin: 10px;
+  }
+}
 /* random color toys */
 .coolBorder {
   border: 0px;
@@ -266,7 +281,7 @@ h5 {
   grid-template-columns: max-content auto;
   grid-template-rows: auto -webkit-max-content;
   grid-template-rows: auto max-content;
-  background: #333 url("../img/stock/image003.png") center;
+  background: #333 url("../img/home/features.jpg") center;
   background-size: cover;
   color: black;
   height: 225px;
@@ -303,14 +318,14 @@ h5 {
   border-color: var(--custom2);
 }
 .card.bg-custom2 .heading-frame {
-  background-image: url("../img/stock/image006.png");
+  background-image: url("../img/home/connectors.jpg");
 }
 .card.bg-custom3 .heading-frame:before,
 .card.bg-custom3 .heading-frame:after {
   border-color: var(--custom3);
 }
 .card.bg-custom3 .heading-frame {
-  background-image: url("../img/stock/image005.png");
+  background-image: url("../img/home/aiml.jpg");
 }
 
 /* pricing */
