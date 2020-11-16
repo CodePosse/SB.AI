@@ -15,7 +15,9 @@ body {
   font-family: "Raleway", Tahoma, Arial, sans-serif;
   height: 100%;
 }
-main {margin-bottom:5rem}
+main {
+  margin-bottom: 5rem;
+}
 footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -35,9 +37,21 @@ footer a:hover {
 .shadow-sm {
   box-shadow: var(--custom3);
 }
-.sprite{margin:10px auto;border-radius:40px;background:var(--silver);width:75px;height: 75px;text-align: center;}
-.sprite svg{width:50px;height:50px;color:#fff;top: 12px;
-  position: relative;}
+.sprite {
+  margin: 10px auto;
+  border-radius: 40px;
+  background: var(--silver);
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.sprite svg {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  top: 12.5px;
+  position: relative;
+}
 /* width related */
 .w-10 {
   width: 10% !important;
@@ -78,10 +92,10 @@ img.invert {
 
 /* forms */
 .btn-xl {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.55rem;
   line-height: 1.75;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 form .required {
   color: red;
@@ -155,6 +169,7 @@ h5 {
 .bg-bronze {
   background-color: var(--bronze);
 }
+.bg-deepPurple{	background: #1f253d;}
 .border-custom1 {
   border: 1px solid var(--custom1);
 }
