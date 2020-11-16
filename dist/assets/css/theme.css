@@ -114,15 +114,7 @@ form label {
   text-transform: uppercase;
   color: var(--custom3);
 }
-form .form-control,
-form select,
-form option {
-  color: var(--custom2);
-}
-input:active,
-input:focus {
-  color: var(--custom2);
-}
+
 .logo {
   background: url("/assets/img/SearchBoos.ai-Black-NoTag2.png");
 }
