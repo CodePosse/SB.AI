@@ -240,7 +240,7 @@ h5 {
 /* home */
 .jumbotron.home {
   height: calc(100vh - 56px);
-  background: url("../img/search-unsplash.jpg") no-repeat left top #000;
+  background: url("../img/home/hero2.png") no-repeat left top #000;
   background-repeat: no-repeat, repeat;
   background-size: cover;
   font-size: 1.25rem;
